@@ -67,9 +67,13 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          <a href="https://mobile.twitter.com/abhi2rai" target="_blank" rel="noopener noreferrer">twitter</a>
-          "."
-          <a href="https://github.com/abhi2rai" target="_blank" rel="noopener noreferrer">github</a>
+          <a href="https://mobile.twitter.com/abhi2rai" target="_blank" rel="noopener noreferrer">Twitter</a>
+          .
+          <a href="https://github.com/abhi2rai" target="_blank" rel="noopener noreferrer">GitHub</a>
+          .
+          <a href="https://play.google.com/store/apps/developer?id=Abhishek+Rai" target="_blank" rel="noopener noreferrer">Play Store</a>
+          .
+          <a href="https://gitlab.com/abhi2rai" target="_blank" rel="noopener noreferrer">GitLab</a>
         </Footer>
       </Wrapper>
     )
