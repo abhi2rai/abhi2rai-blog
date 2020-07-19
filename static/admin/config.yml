@@ -1,6 +1,6 @@
 backend:
-+  name: github
-+  repo: abhi2rai/abhi2rai-blog
+  name: github
+  repo: abhi2rai/abhi2rai-blog
 
 media_folder: content/assets
 public_folder: ../assets
