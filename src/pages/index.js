@@ -15,7 +15,6 @@ class IndexPage extends React.Component {
           title="Abhishek Rai's personal blog"
           keywords={[`blog`, `abhi2rai`, `developer`]}
         />
-        <img style={{ margin: 0 }} src="./placeholder.jpg" alt=" work & play" />
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
