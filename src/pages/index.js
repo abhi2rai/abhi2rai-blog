@@ -21,12 +21,30 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>Welcome to my personal blog page!</p>
+        <p>Welcome to my personal page!</p>
+        <p>
+          My name is Abhishek Rai. Living and working in Great New York area. Did my Bachelors from GSSIPU and Masters from Stony Brook. Working professionally as a Software Engineer since 2013.
+        </p>
+        <p>
+        What interests me:
+        </p>
+        <p>
+          <ul>
+            <li>
+              Watching movies - avid fan of horror and thriller genre.
+            </li>
+            <li>
+              History - does not matter which country or object. Anything that is intruiging and worth knowing about.
+            </li>
+            <li>
+              Tech enthusiast - mobile phone, tablets, PC's, laptop etc.. Try my best to be up to date.
+            </li>
+          </ul>
+        </p>
         <p>
           All thought and opinions are my own.
           Hoping to capture and analyze as I learn.
         </p>
-        <p>Let's go discover something!</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>

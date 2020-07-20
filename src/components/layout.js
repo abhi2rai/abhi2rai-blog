@@ -39,6 +39,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
+            textAlign: "center"
           }}
         >
           <Link

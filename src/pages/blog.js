@@ -10,7 +10,7 @@ import Button from "../components/button"
 class Blog extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = "Posts"
+    const siteTitle = "Blogs"
     const posts = data.allMdx.edges
 
     return (
