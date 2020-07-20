@@ -73,9 +73,9 @@ class Layout extends React.Component {
           &ensp;
           <a href="https://github.com/abhi2rai" target="_blank" rel="noopener noreferrer" >GitHub</a>
           &ensp;
-          <a href="https://play.google.com/store/apps/developer?id=Abhishek+Rai" target="_blank" rel="noopener noreferrer" >Play Store</a>
-          &ensp;
           <a href="https://gitlab.com/abhi2rai" target="_blank" rel="noopener noreferrer">GitLab</a>
+          &ensp;
+          <a href="https://play.google.com/store/apps/developer?id=Abhishek+Rai" target="_blank" rel="noopener noreferrer" >Play Store</a>
         </Footer>
       </Wrapper>
     )

@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
         </h1>
         <p>Welcome to my personal page!</p>
         <p>
-          My name is Abhishek Rai. Living and working in Great New York area. Did my Bachelors from GSSIPU and Masters from Stony Brook. Working professionally as a Software Engineer since 2013.
+          My name is Abhishek Rai. Living and working in Greater New York area. Did my Bachelors from GSSIPU and Masters from Stony Brook. Working professionally as a Software Engineer since 2013.
         </p>
         <p>
         What interests me:
