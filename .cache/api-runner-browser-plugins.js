@@ -15,7 +15,7 @@ module.exports = [{
       options: {"plugins":[],"trackingId":"UA-173018789-1"},
     },{
       plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
-      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/profile.jpg","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"dfadb7e537e6ec9b0b23ef4f19bd255d"},
+      options: {"plugins":[],"name":"abhi2rai","short_name":"abhi2rai","start_url":"/","background_color":"#121212","theme_color":"#2ba147","display":"minimal-ui","icon":"content/assets/profile.jpg","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"dfadb7e537e6ec9b0b23ef4f19bd255d"},
     },{
       plugin: require('../node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},

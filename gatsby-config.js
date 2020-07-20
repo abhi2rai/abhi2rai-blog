@@ -73,7 +73,7 @@ module.exports = {
         name: `abhi2rai`,
         short_name: `abhi2rai`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#121212`,
         theme_color: `#2ba147`,
         display: `minimal-ui`,
         // edit below
