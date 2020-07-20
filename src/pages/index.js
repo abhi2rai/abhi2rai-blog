@@ -37,7 +37,7 @@ class IndexPage extends React.Component {
               History - does not matter which country or object. Anything that is intruiging and worth knowing about.
             </li>
             <li>
-              Tech enthusiast - mobile phone, tablets, PC's, laptop etc.. Try my best to be up to date.
+              Tech enthusiast - mobile phones, tablets, PC's, laptops, wearables etc.. Try my best to be up to date.
             </li>
           </ul>
         </p>
