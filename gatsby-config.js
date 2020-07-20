@@ -70,11 +70,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `abhi2rai`,
+        short_name: `abhi2rai`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#2ba147`,
         display: `minimal-ui`,
         // edit below
         icon: `content/assets/profile.jpg`,
