@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
         </h1>
         <p>Welcome to my personal page!</p>
         <p>
-          My name is Abhishek Rai. Living and working in Greater New York area. Did my Bachelors from GSSIPU and Masters from Stony Brook. Working professionally as a Software Engineer since 2013.
+          My name is Abhishek Rai. Living and working in Greater New York area. Did my Bachelors from <a href="http://ipu.ac.in" target="_blank" rel="noopener noreferrer">GGSIPU</a> and Masters from <a href="https://www.stonybrook.edu" target="_blank" rel="noopener noreferrer">Stony Brook University</a>. Working professionally as a Software Engineer since 2013.
         </p>
         <p>
         What interests me:
@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
               Watching movies - avid fan of horror and thriller genre.
             </li>
             <li>
-              History - does not matter which country or object. Anything that is intruiging and worth knowing about.
+              History - does not matter which country or object. Anything that is intriguing and worth knowing about.
             </li>
             <li>
               Tech enthusiast - mobile phones, tablets, PC's, laptops, wearables etc.. Try my best to be up to date.
