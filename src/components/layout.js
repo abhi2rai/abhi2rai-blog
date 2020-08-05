@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Button from "../components/button"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -42,15 +43,8 @@ class Layout extends React.Component {
             textAlign: "center"
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/blog/`}
-          >
-            {title}
+          <Link to="/blog/">
+            <Button marginLeft="0px" background="none" color="black" textAlign="left" radius="0px" padding="0px">&lt;{title}</Button>
           </Link>
         </h3>
       )

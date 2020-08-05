@@ -16,7 +16,9 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
+        <Link to="/">
+          <Button marginLeft="0px" background="none" color="black" textAlign="left" radius="0px" padding="0px">&lt;Home</Button>
+        </Link>
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
@@ -44,9 +46,6 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
       </Layout>
     )
   }

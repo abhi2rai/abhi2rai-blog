@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
           Hoping to capture and analyze as I learn.
         </p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button margin="auto">Go to Blogs</Button>
         </Link>
       </Layout>
     )
