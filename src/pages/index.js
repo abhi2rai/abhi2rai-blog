@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Abhishek Rai's personal blog"
+          title="Home"
           keywords={[`blog`, `abhi2rai`, `developer`]}
         />
         <h1>

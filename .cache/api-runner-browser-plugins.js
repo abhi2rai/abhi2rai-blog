@@ -5,6 +5,9 @@ module.exports = [{
       plugin: require('../node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
+      plugin: require('../node_modules/gatsby-plugin-twitter/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
       plugin: require('../node_modules/gatsby-plugin-mdx/gatsby-browser.js'),
       options: {"plugins":[{"resolve":"/Users/abhishekrai/Documents/Development/blog/node_modules/gatsby-remark-images","id":"3626c0e0-58d4-5046-b0e5-cb7731a052f2","name":"gatsby-remark-images","version":"3.3.19","pluginOptions":{"plugins":[]},"nodeAPIs":[],"browserAPIs":["onRouteUpdate"],"ssrAPIs":[]}],"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":590}},{"resolve":"gatsby-remark-responsive-iframe","options":{"wrapperStyle":"margin-bottom: 1.0725rem"}},{"resolve":"gatsby-remark-vscode"},{"resolve":"gatsby-remark-copy-linked-files"},{"resolve":"gatsby-remark-smartypants"}]},
     },{
