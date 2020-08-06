@@ -13,27 +13,54 @@ class Layout extends React.Component {
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
 
-    if (location.pathname === rootPath || location.pathname === blogPath) {
+    if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            textAlign: "center"
-          }}
-        >
-          <Link
+        <div>
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              textAlign: "center"
             }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={location.pathname === blogPath ? `/blog/` : `/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <SocialBar/>
+        </div>
+      )
+    } else if (location.pathname === blogPath) {
+      header =(
+        <div>
+          <h1
+            style={{
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              textAlign: "center"
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={location.pathname === blogPath ? `/blog/` : `/`}
+            >
+              {title}
+            </Link>
+          </h1>
+        </div>
       )
     } else {
       header = (
@@ -61,7 +88,6 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
-          <SocialBar/>
           <main>{children}</main>
         </div>
       </Wrapper>
