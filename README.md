@@ -3,8 +3,6 @@
   Personal blog site using Gatsby - https://abhi2rai.com
 </h1>
 
-<img alt="screesnhot" src="./screenshot.png">
-
 This is made using a variation of the the tutorial posted by developer Thomas Wang here:
 https://www.thomas.wang/blog/developer-blog
 
