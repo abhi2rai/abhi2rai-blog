@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import Button from "../components/button"
+import Navigation from "../components/navigation"
 import SocialBar from "../components/social-bar"
-
 import { rhythm, scale } from "../utils/typography"
+
+import "./layout.css"
 
 class Layout extends React.Component {
   render() {
@@ -72,7 +73,7 @@ class Layout extends React.Component {
           }}
         >
           <Link to="/blog/">
-            <Button marginLeft="0px" background="none" color="black" textAlign="left" radius="0px" padding="0px">&lt;{title}</Button>
+            <Navigation>&lt;{title}</Navigation>
           </Link>
         </h3>
       )

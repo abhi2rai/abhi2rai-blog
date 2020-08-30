@@ -1,0 +1,13 @@
+body{
+    background-color: #003546;
+    color: white;
+    min-height: 100vh;
+}
+
+a{
+    color: #ffde4c;
+}
+
+Link{
+    background-color: #ffde4c;
+}

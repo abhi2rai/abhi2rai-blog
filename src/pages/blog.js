@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import Button from "../components/button"
+import Navigation from "../components/navigation"
 
 class Blog extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Link to="/">
-          <Button marginLeft="0px" background="none" color="black" textAlign="left" radius="0px" padding="0px">&lt;Home</Button>
+          <Navigation >&lt;Home</Navigation>
         </Link>
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
