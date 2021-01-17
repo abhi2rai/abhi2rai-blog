@@ -31,17 +31,7 @@ function BlogList(){
                         {title}
                         </Link>
                         </h3>
-                        <small>{node.frontmatter.date}</small> | <small>{node.wordCount.words} words</small>
-                        <div
-                            style={
-                                {
-                                    fontWeight: 'bold'
-                                }
-                            }
-                            dangerouslySetInnerHTML={{
-                                __html: node.frontmatter.description,
-                            }}
-                        />
+                        <small>{node.frontmatter.date}</small> | <small>{node.timeToRead} minute read</small>
                         <div
                             dangerouslySetInnerHTML={{
                                 __html: node.excerpt,
@@ -77,9 +67,7 @@ export const dataQuery = graphql`
             title
             description
           }
-          wordCount {
-            words
-          }
+          timeToRead
         }
       }
     }
