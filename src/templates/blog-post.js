@@ -10,7 +10,7 @@ import { rhythm, scale } from "../utils/typography"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    const siteTitle = "Blogs"
+    const siteTitle = "Home"
     const { previous, next } = this.props.pageContext
 
     return (

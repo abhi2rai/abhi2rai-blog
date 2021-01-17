@@ -72,7 +72,7 @@ class Layout extends React.Component {
             textAlign: "center"
           }}
         >
-          <Link to="/blog/">
+          <Link to="/">
             <Navigation>&lt;{title}</Navigation>
           </Link>
         </h3>
