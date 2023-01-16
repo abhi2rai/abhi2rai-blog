@@ -2,8 +2,15 @@
 path: personal-blog-paradox
 date: 2020-08-05T00:54:37.531Z
 title: Personal Blog Paradox
-description: Welcome to the Paradox!
+description: My personal experience trying to create a basic blog using Netlify
+  and Gatsby after some experimentation
 ---
+### Update as of 15th January, 2023
+
+The development experience locally with this stack has been turbulent. Will share an update soon on this. 
+
+\-----
+
 Almost every developer I know or read about has gotten into this - "Having my own blog would be so cool". While the [idea](https://www.freecodecamp.org/news/every-developer-should-have-a-blog-heres-why-and-how-to-stick-with-it-5fd55a247fbf/) is great, the execution can get slippery depending on who you are :) 
 
 This is what happened to me:
